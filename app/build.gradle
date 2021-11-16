@@ -3,17 +3,18 @@ plugins {
 }
 
 android {
-    compileSdk 31
+       compileSdkVersion 30
+    buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.more.currencylebanon"
-        minSdk 21
-        targetSdk 31
+        applicationId "com.example.adapter"
+        minSdkVersion 24
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
+ }
 
     buildTypes {
         release {
